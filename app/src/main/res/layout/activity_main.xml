@@ -8,15 +8,18 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="1"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
+
     <Button
+        android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll"/>
+        android:text="@string/roll" />
 
 </LinearLayout>
